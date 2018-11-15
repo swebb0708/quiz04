@@ -1,0 +1,60 @@
+body{
+    padding:0;
+    margin:0;
+    text-align: center;
+}
+
+#div1 {
+    border: 1px solid black;
+    border-top: 10px solid black;
+    min-height: 70vh;
+    max-height: 90vh;
+    min-width: 25vw;
+    max-width: 40vw;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    overflow: hidden;
+}
+
+#all{
+    text-align: left;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+span{
+    color:blue;
+}
+
+.container{
+    border-bottom: dotted black 2px;
+    margin-bottom: 1vh;
+}
+
+
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1vh;
+}
+
+.author {
+    margin-bottom: 1vh;
+}
+
+
+#bottom {
+    border-top: 1.5px dotted black;
+    border-bottom:1.5px dotted black;
+    height: 2px;
+    
+    
+}
+
+#bttm{
+    border-top: 1.5px dotted black;
+    margin-bottom:2px;
+    margin-top:2px;
+}
